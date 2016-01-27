@@ -1,0 +1,21 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: M0T0
+	Theme URI: http://themeforest.net/user/Epicomedia
+	Description: <strong>Creative One Page Multi-Purpose Theme </strong>
+	Author: EpicoMedia
+	Author URI: http://www.Epicomedia.net
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.3.5
+	Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, sticky-post, theme-options, translation-ready, accessibility-ready
+	Designed & Handcrafted by EpicoMedia
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+-----------------------------------------------------------------------------------*/
+
+@import url(assets/css/normalize.css);
+@import url(assets/css/icomoon.css);
+@import url(assets/css/theme-styles.css);
+@import url(assets/css/woocommerce.css);

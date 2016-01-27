@@ -1,0 +1,1660 @@
+body{
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+header .navigation > ul > li:first-child {
+	margin-right: 10px;
+        margin-left: 25px;
+}
+/* Paragraph */
+p{
+    direction:rtl;
+}
+.post ul {
+    padding-right: 16px;
+}
+
+.singlePost caption,
+.singlePost th,
+.singlePost td {
+	text-align: right;
+}
+
+.singlePost ul li ul, .singlePost ol li ol {
+    margin-right: 15px;
+}
+
+blockquote:before {
+    margin-left: 0.25em;
+}
+
+
+blockquote:after {
+    margin-left: 0.25em;
+}
+
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* 02. Blog accordion
+/*-----------------------------------------------------------------------------------*/
+
+.blogAccordion .leftBorder {
+    padding-right:21px;
+    right:-110px;
+    border-left:transparent;
+    -moz-transition:border-right-color 200ms linear, right 200ms ease-in-out;
+    -o-transition:border-right-color 200ms linear, right 200ms ease-in-out;
+    -webkit-transition:border-right-color 200ms linear, right 200ms ease-in-out;
+    transition:border-right-color 200ms linear, right 200ms ease-in-out;
+
+}
+
+.blogAccordion.accordionClosed:hover .leftBorder {
+    -moz-transition: opacity 700ms , right 300ms linear;
+    -o-transition: opacity 700ms , right 300ms linear;
+    -webkit-transition: opacity 700ms , right 300ms linear;
+    transition: opacity 700ms , right 300ms linear;
+}
+
+.blogAccordion.accordionClosed .leftBorder {
+    border-right:1px solid #fff;
+	border-left:transparent;
+    right:0px;
+
+    -moz-transition:border-right-color 800ms ease .3s,opacity 800ms , right 200ms ease-in-out;
+	-o-transition:border-right-color 800ms ease .3s,opacity 800ms , right 200ms ease-in-out;
+	-webkit-transition:border-right-color 800ms ease .3s,opacity 800ms , right 200ms ease-in-out;
+	transition:border-right-color 800ms ease .3s,opacity 800ms , right 200ms ease-in-out;
+
+}
+
+.blogAccordion .leftBorder .monthYear {
+
+    right: 0;
+}
+
+.blogAccordion.accordionClosed .leftBorder .monthYear , .blogAccordion.accordionClosed .accordion_box10 .blogTitle{
+    right:0 !important;
+}
+	
+.blogAccordion .accordion_title .day {	
+    float: right;
+    right: 40px;
+}
+
+.blogAccordion .accordion_title .monthYear {
+	float:right;
+	padding:11px 12px 0 0;
+}
+
+.accordion_box10 .image {
+	width:76%; 
+	float:left;
+}
+
+.desktopBlog .blogAccordion .accordion_box10 .blogTitle {
+    right:0;
+    margin-bottom: 15px;
+    -moz-transition:right 500ms ease-in-out;
+	-o-transition:right 500ms ease-in-out;
+	-webkit-transition:right 500ms ease-in-out;
+	transition:right 500ms ease-in-out;
+}
+
+.desktopBlog .blogAccordion.accordionClosed .accordion_box10 .leftBorder .blogTitle {
+    right:0;
+    margin-bottom: 15px;
+    -moz-transition:right 500ms ease-in-out;
+    -o-transition:right 500ms ease-in-out;
+    -webkit-transition:right 500ms ease-in-out;
+     transition:right 500ms ease-in-out;
+}
+
+.tabletBlog .blogAccordion .accordion_title {
+    float:right;
+	width:115px;
+}
+
+.tabletBlog  .blogAccordion  .blogTitle {
+	padding:21px 15px 21px 0;
+    float:right;
+}
+
+.tabletBlog  .centerTitle {
+	margin-right:20px;
+}
+
+
+.tabletBlog .blogAccordion .rightBorder {
+	border-left: 2px solid #101010;
+}
+			
+.desktopBlog .accordion_content {
+    right:0;
+}
+
+.desktopBlog .accordion_content p {
+
+    float:right;
+}
+
+.tabletBlog .accordion_content {
+    padding:25px 0 25px 5px;
+}
+
+/* read more line */
+
+.accordion_box2 {
+    float:right;		
+}
+
+.accordion_box10 {
+    float:right;
+}
+
+.tabletBlog .blogClose , .desktopBlog .blogClose {
+	left:10px;
+}
+
+.tabletBlog .accordion_content .readmoreLine, .desktopBlog .accordion_content .readmoreLine {
+    right: 0;
+}
+
+.blog_social_share {
+    float: left;
+    left: 0;
+}
+
+
+.readmore .loadMore .text:before {
+    right: 0;
+    margin-right: -10px;
+}
+
+.socialShareContainer {
+    float: left;
+    padding-right: 5px;
+}
+.social_share_toggle {
+    float: left;
+}
+.social_share_toggle:hover .social_links,
+.social_share_toggle.opened .social_links{
+    width:170px;
+    direction: ltr;
+    -webkit-transition: width .01s linear 0s;
+    -moz-transition: width .01s linear 0s;
+    -ms-transition: width .01s linear 0s;
+    transition: width .01s linear 0s;
+
+}
+.social_share_toggle > i:first-child {
+    float: left;
+}
+/*-----------------------------------------------------------------------------------*/
+/* 03. 404 Page 
+/*-----------------------------------------------------------------------------------*/
+
+.not_found_page .search-form form {
+    padding: 5px 10px 5px 5px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* 04. fullWidth
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* 05. button
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* 06. Colors
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* 07. Forms & contact form 7 style
+/*-----------------------------------------------------------------------------------*/
+
+#respond-wrap .label , #respond-wrap .graylabel , #respond .label , #respond .graylabel , #review_form .graylabel {
+    text-align:right;
+}
+
+.vc_col-sm-6 .wpcf7-form #comment-text .label, .vc_col-sm-6  .wpcf7-form #comment-text .graylabel ,
+.vc_col-sm-8 .wpcf7-form #comment-text .label, .vc_col-sm-8  .wpcf7-form #comment-text .graylabel {
+    text-align:right;
+}
+
+/* Footer CF7 Style */
+#mail , #name , #subject {
+    float: right;
+}
+
+#mail, #subject {
+	margin-right:2%;
+    margin-left: 0;
+}
+
+#comment-text {
+	float:right;
+}
+
+span.wpcf7-not-valid-tip-no-ajax {
+	left:1%;
+}
+
+span.wpcf7-not-valid-tip {
+
+	left: 12px;
+	right:auto;
+}
+
+form.wpcf7-form {
+    direction: rtl;
+}
+.wpcf7-form .graylabel, #respond-wrap .graylabel, #respond .graylabel, #review_form .graylabel {
+    font-stretch: semi-condensed;
+}
+.wpcf7-form .label, #respond-wrap .label, #respond .label, #review_form .label {
+    font-stretch: semi-condensed;
+}
+
+#comment-text .button.button-large input[type="submit"] {
+    font-stretch: semi-condensed;
+}
+/*-----------------------------------------------------------------------------------*/
+/* 08. Search Form
+/*-----------------------------------------------------------------------------------*/
+
+.search-button {
+    float: left;
+}
+
+/* Wave menu*/
+#epHeader.wave-menu-header .search-button {
+    left: 120px;
+}
+
+/* has on of cart button or wishlist */
+#epHeader.wave-menu-header .search-button.has_dropdown_cart,
+#epHeader.wave-menu-header .search-button.has_wishlist {
+    left:182px;
+}
+
+/* has both of cart button and wishlist */
+#epHeader.wave-menu-header .search-button.has_dropdown_cart.has_wishlist{
+    left:122px; 
+}
+
+#epHeader.wave-menu-header .widget.widget_woocommerce-dropdown-cart + .search-button.has_dropdown_cart.has_wishlist{
+    left:182px; 
+}
+
+#epHeader.wave-menu-header .widget.widget_woocommerce-wishlist + .search-button.has_dropdown_cart.has_wishlist {
+    left:244px;
+}
+
+
+/* left/right menu*/
+aside.vertical_menu_area .search-button {
+    margin-right: -21px;
+}
+
+.right_menu_enabled aside.vertical_menu_area .search-button {
+    margin-right: auto;
+    margin-left: -18px;
+    float: right;
+}
+
+#search-form{
+  right: 0;
+}
+
+.search-form form{
+	padding: 10px 10px 10px 52px;
+}
+
+#search-form #search-caption {
+
+    right: 15%;
+    margin-right: 62px;
+}
+
+body:not(.right_menu_enabled) aside.vertical_menu_area.left_menu + #search-form #search-caption {
+    right:300px;
+}
+
+#search-form input[type="text"]{
+    right:15% !important;
+    padding-right:30px;
+}
+
+body:not(.right_menu_enabled) aside.vertical_menu_area.left_menu + #search-form input[type="text"] {
+    right:300px !important;
+}
+
+#search-form .search-form input[type="text"]::-webkit-input-placeholder { /* WebKit browsers */
+    padding-right:30px;
+}
+#search-form .search-form input[type="text"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    padding-right:30px;
+}
+#search-form .search-form input[type="text"]::-moz-placeholder { /* Mozilla Firefox 19+ */
+    padding-right:30px;
+}
+#search-form .search-form input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
+    padding-right:30px;
+}
+
+.search-form input[type="submit"] {
+    left: 0;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+/* Navigation Button inside header */
+header .navigation-button{
+	float:left;
+}
+
+
+.navigation-mobile li  {
+    margin-left:80px;
+}
+
+.navigation-mobile ul ul{
+	padding-right: 15px;
+}
+form.wpcf7-form {
+    direction: rtl;
+}
+#headerFirstState .menuBgColor {
+    opacity: 0 !important;
+}
+/*-----------------------------------------------------------------------------------*/
+/* 09. Grid
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* 10. header Image And text Rotor 
+/*-----------------------------------------------------------------------------------*/
+#fullScreenSlider {
+    direction: ltr;
+}
+/*-----------------------------------------------------------------------------------*/
+/*	11. Header &  Navigation 
+/*-----------------------------------------------------------------------------------*/
+
+header .logo
+{
+	float:right;
+}
+
+
+header .navigation
+{
+	float:right;
+}
+
+header .navigation li
+{
+	float:right;
+}
+
+header .navigation > ul > li{
+
+	margin-left: 25px;
+}
+
+header .navigation > ul > li:first-child{
+	margin-right: 0;
+}
+
+header .navigation li ul {
+	right:0;
+        left:auto;
+	top: 59px;
+
+}
+
+header .wave-menu .navigation li ul {
+    right:20px;
+    text-align:right;
+}
+
+header .wave-menu .navigation li ul ul {
+    right:100%;
+}
+
+
+header .navigation li li ul {
+	right:100%;
+	top:0;
+}
+
+.wave-menu .content::before {
+
+	right: 0;
+}
+
+.close-button {
+	left: 1em;
+}
+
+.close-button::before,
+.close-button::after {
+	content: '';
+	right: 50%;
+}
+
+/* Menu */
+.menu-wrap {
+	right: 0;
+}
+
+.menu-list li {
+    float:right;
+}
+
+.menu-list a i {
+	vertical-align: middle;
+}
+
+.menu-list a span {
+	margin-right: 10px;
+}
+
+header a.trigger {
+  text-align: center;
+  margin-top:60px;
+  margin-left:60px;
+}
+.trigger span {
+  right: 50%;
+  margin-right: -11px;
+}
+
+.trigger span:before,
+.trigger span:after {
+  right: 0;
+  content: '';
+}
+/*-----------------------------------------------------------------------------------*/
+/*	12. vertical menu - Left & Right Position
+/*-----------------------------------------------------------------------------------*/
+.vertical_menu_enabled.right_menu_enabled .vertical_menu_area .nav_border { 
+    border-right:1px solid #acacac;
+    border-left:none;
+}
+
+.right_menu_enabled.vertical_menu_enabled .vertical_menu_area .vertical_menu_navigation a {
+    float:right;
+}
+.vertical_menu_enabled .vertical_menu_area .vertical_menu_navigation a {
+    padding: 3px 12px 3px 30px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	13. loader
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* 14. Social icons 
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  15. socail Share
+/*-----------------------------------------------------------------------------------*/
+.share-item {
+    float:right;
+}
+
+.share-item.google {
+    float:right;
+}
+
+.share-item > a {
+    float:right !important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  16. image shortcode
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  17. textbox shortcode
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  18. Custom title
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  19. Custom textbox
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  20. image & text shortcode Animation
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	21. Intro Video
+/*-----------------------------------------------------------------------------------*/
+													
+/*-----------------------------------------------------------------------------------*/
+/*	22. Widgets
+/*-----------------------------------------------------------------------------------*/
+
+.widget-area .widget-title {
+    border-right:1px solid #171717;
+    padding-right:19px;
+    border-left:hidden;
+}
+
+.widget.widget_woocommerce-wishlist{
+    float:left;
+}
+
+.widget.widget_woocommerce-dropdown-cart {
+    margin-top:-14px;
+    margin-left:25px;
+       float:left;
+}
+.widget_pages li ul , .widget_nav_menu  li ul 
+{
+  margin-right: 20px;
+}
+.footer-widgetized .widget-title {
+    border-right: 1px solid #363636;
+    padding-right: 15px;
+	border-left:none;
+	text-align:right;
+}
+
+#wp-calendar tfoot td#prev {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#wp-calendar tfoot td#next {
+	padding-left: 10px;
+	text-align: left;
+}
+
+/* Search */
+.widget-area .search-form {
+	padding: 5px 10px 5px 5px;
+}
+
+.search-form fieldset {
+    padding-right: 50px;
+}
+
+.widget-area .search-form form{
+	padding: 5px 10px 5px 42px;
+}
+
+.widget-area li ul{
+	padding-right:10px;
+}
+
+/* Tag Cloud */
+.tagcloud {
+    margin-right: -4px;
+}
+
+.post-content .tagcloud {
+    margin-right: -4px;
+    float: left;
+}
+
+.tagcloud a{
+	margin-right: 4px;
+}
+
+.widget-area .tagcloud a,
+.widget-area .tagcloud{
+	margin-right: 0;
+}
+
+/* Flickr Badge */
+.flickr-container{
+	margin-right: -5px;
+}
+
+.flickr-container .flickr_badge_image {
+	float:right;
+}	
+/*-----------------------------------------------------------------------------------*/
+/*  23. Footer
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  24. custom Icon Box 
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	25. Icon Box 
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* 26. Horizontal separator with title
+/*-----------------------------------------------------------------------------------*/
+											
+/*-----------------------------------------------------------------------------------*/
+/*  27. team member shortcode
+/*-----------------------------------------------------------------------------------*/
+.team-member .bg-image{
+    margin: -10px 0px 0 -10px;
+}
+
+.team-member .member-plus {
+    left:-17px;
+}
+
+.team-member .member-plus-line:after,
+.team-member .member-plus-line:before {
+    right: 11px;
+	left:0;
+}
+
+.team-member .icons {
+    left: 25px;
+	right:0;
+}
+
+.team-member .icons li {
+  float: right;
+  padding-right: 13px;
+}
+
+.team-member .signature {
+    margin-left: -17px;
+    text-align: left;
+    float:left;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* 28. Accordion and toggle  shortcode
+/*-----------------------------------------------------------------------------------*/
+
+.wpb_content_element .wpb_accordion_header a {
+    padding: 9px 55px 9px 10px !important;
+}
+
+.wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon,
+.wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+    right: 20px;
+}
+.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab, .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content {
+  padding: 5px 26px 10px 10px !important;
+}
+
+.wpb_toggle:before, #content h4.wpb_toggle:before {
+    right: 20px;
+	left:0;
+}
+
+.wpb_toggle:after, #content h4.wpb_toggle:after {
+    left:0px;
+	right:20px;
+}
+
+.wpb_toggle {
+    padding-right:0 !important;
+}
+
+.wpb_toggle .title {
+    padding-right:55px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  29. Tabs shorcode
+/*-----------------------------------------------------------------------------------*/
+
+.tabs .head li{
+	float:right;
+}
+
+.tabs .head li:first-child{
+    border-right: none;
+}
+/*-----------------------------------------------------------------------------------*/
+/* 30. counter box
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  31. piechart
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  32. Testimonials // Blockquotes
+/*-----------------------------------------------------------------------------------*/
+
+blockquote .name
+{
+    left:50px;
+}
+
+.testimonial{
+    padding-right: 20px;
+}
+
+.testimonial blockquote{
+    float: right;
+    text-align:right;
+}
+
+.testimonials:before {
+    right:0px;
+}
+
+.testimonials:after {
+    right: 170px;
+}
+
+
+.testimonials .quot-icon {
+    margin-right: 0px;
+}
+
+
+.testimonials .arrow-button-divider {
+    float: left;
+	right:50px;
+}
+.arrows-button-prev.no-select.arrows-button-prev-testimonial_1 {
+    margin-left: -94px !important;
+}
+
+.testimonials .arrows-button-prev ,.testimonials .arrows-button-prev:hover {
+    right:6px !important;
+    float: left;
+}
+
+.testimonials .arrows-button-next ,.testimonials .arrows-button-next:hover{
+    float: left;
+}
+.testimonials .arrows-button-prev:hover:after {
+    margin-right: 40px;
+}
+
+.testimonials .quote .author-image {
+    margin-left: 40px;
+    float: right;
+}
+
+.testimonials .author {
+    float: left;
+	margin-top: -75px;
+}
+
+.testimonials .quote .head {
+    float:right;
+}
+
+.testimonials .quote .name  {
+    text-align:left;
+}
+
+.testimonials .quote .job  {
+    text-align:left;
+}
+
+.vc_col-sm-6 .testimonials .quote .name,
+.vc_col-sm-6 .testimonials .quote .job {
+    text-align:right;
+}
+
+.vc_col-sm-6 .testimonials .author {
+    float:right;
+}
+
+.vc_col-sm-12 .testimonials:before,
+.vc_col-sm-10 .testimonials:before {
+    right:100px;
+}
+
+.vc_col-sm-12 .testimonials:after,
+.vc_col-sm-10 .testimonials:after {
+    right:270px;
+}
+        
+.vc_col-sm-12 .testimonials .quot-icon-container,
+.vc_col-sm-10 .testimonials .quot-icon-container {
+    right:430px;
+}
+
+.vc_col-sm-12 .testimonial blockquote,
+.vc_col-sm-10 .testimonial blockquote {
+    padding: 50px 27px 10px 0;
+    float: none;
+}
+
+.vc_col-sm-12 .testimonials .quote .author-image,
+.vc_col-sm-10 .testimonials .quote .author-image {
+    margin-right: 0;
+}
+
+.vc_col-sm-12 .testimonials .arrows-button-prev,
+.vc_col-sm-10 .testimonials .arrows-button-prev,
+.vc_col-sm-12 .testimonials .arrows-button-next,
+.vc_col-sm-10 .testimonials .arrows-button-next {
+    margin-left:115px;
+}
+/*-----------------------------------------------------------------------------------*/
+/* 32. Blog listing/Archive
+/*-----------------------------------------------------------------------------------*/
+
+
+.post .post-title {
+	text-align:right;
+    float:right;
+}
+
+.cblog .post .post-title {
+    text-align:left;
+    padding-right: 60px;
+}
+
+.post-date {
+    float:right;
+    border-left:1px #111 solid;
+    border-right:0;
+    margin-left:25px;
+}
+
+.cblog .post-date {
+    margin-left:0;
+}
+
+.page-title 
+{
+	text-align:right;
+}
+
+.nav_box a {
+	float:left;
+    margin-left:16px;
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	33. Blog Single
+/*-----------------------------------------------------------------------------------*/
+
+			
+.comment-reply-title small a {
+    left:75px;
+}
+
+.comment_list_border {
+    right: 48px;
+}
+
+.comments-list .comment-image {
+	float:right;
+	margin:4px 4px 4px 14px;
+}
+
+.comments-list .comment-reply-link {
+    left: 10px;
+}
+
+.comment-meta cite {
+    margin-left:15px;
+}
+
+.comment-meta .author-tag {
+    margin-right:-15px;
+    margin-left:15px;
+}
+
+.comments-list .comment-text {
+    margin-right:88px;
+}
+
+.comments-list .children .comment-text {
+    margin-right:0px;
+}
+
+/* Comment reply style  */
+.comments-list .line {
+	right:-42px;
+}
+
+.comments-list .children .children .line {
+    width: 144px;
+    right: -130px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	34. Respond form
+/*-----------------------------------------------------------------------------------*/
+
+.comments-list #respond {
+    margin: 40px 80px 40px 30px;
+}
+
+.comments-list .children #respond {
+    margin: 40px 0px 40px 30px;
+}
+
+#commentform .input-text {
+	float:right;
+	margin-right: 2%;
+}
+
+#commentform .input-text:first-child{
+	margin-right: 0;
+}
+
+.comments-list .children #commentform .input-text:first-child {
+	margin-right:0%;
+}
+
+.comments-list .children #commentform .input-text {
+	margin-right:1.95%;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* 35. social Share Btns 
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	36. parallax And Video section / texture hover
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	37. portfolio and portfolio detial / load more btns 
+/*-----------------------------------------------------------------------------------*/
+
+
+.postphoto .title ,.postphoto .skills  {
+    right: 23px;
+}
+
+.postphoto .overlay {
+    right:0;
+}
+
+
+.isotope-item {
+  float:right;
+}
+
+.portfolioSection .titleSpace {
+    margin-right:0px;
+}
+
+.portfolio_text.portfolioSection .titleSpace ,.portfolio_space.portfolioSection .titleSpace {
+    margin-right:5px;
+}
+
+.portfolio_text .subnavigation ,.portfolio_space .subnavigation {
+    left:10px;
+}
+
+.fullWidth .portfolio_space .isotope,
+.fullWidth .portfolio_text .isotope {
+    margin-right:8px;
+}
+
+.portfolioSection .container.title_container {
+    margin-right: -15px;
+}
+
+.portfolio_text .portfolio_text_meta {
+    margin-right:7px;
+}
+
+.portfolio_text .portfolio_text_meta .right_meta {
+    padding-right:12px;
+    float:right;
+}
+
+.portfolio_text .portfolio_text_meta .like  {
+    float:right;
+    border-left:1px solid #d6d6d6;
+
+}
+
+.portfolio_text .portfolio_text_meta .like a .no_like {
+    padding-right:4px;
+}
+
+.portfolio_text .portfolio_text_meta .like  a .count {
+    margin-right: -12px;
+}
+
+.portfolio_text .portfolio_text_meta .like .jm-post-like.icon-heart5:before {
+    padding-right: 1px;
+
+}
+
+
+.postphoto:hover .overlay .hover-subtitle {
+    opacity:1;
+}
+
+.postphoto .overlay .icon-type {
+    right:calc(50% - 20px);
+}
+
+/* portfolio hover like*/
+.postphoto .like  {
+    float:right;
+    right: 50%;
+    margin-right: -16px;
+}
+
+
+.postphoto .like .jm-post-like.icon-heart5:before {
+    padding-right: 1px;
+}  
+
+
+.postphoto .overlay .frame.top div {
+    right:0;
+}
+
+.postphoto .overlay .frame.bottom div {
+    left:0;
+}
+
+.isotope.creativeType .postphoto .overlay {
+    right:17px;
+}
+
+.isotope.creativeType .postphoto .overlay .center-line {
+    right:-17px;
+}
+
+.isotope.creativeType .postphoto .overlay .hover-title {
+    padding:0 5% 0 0;
+    text-align: left;
+    margin-left: 34px;
+}
+
+.isotope.creativeType .postphoto .overlay .hover-subtitle {
+    padding:0 5% 0 0;
+    text-align: left;
+    margin-left: 34px;
+}
+
+.isotope.creativeType .postphoto .overlay .icon-type {
+    right:auto;
+    left:34px;
+}
+
+.isotope.creativeType .wide .postphoto .like  {
+    margin-right: -58px;
+}
+.subnavigation
+{
+    left:0px;
+}
+
+.subnavigation li
+{
+	float:right;
+}
+
+.subnavigation a {   
+    padding: 0 15px 0 29px;
+
+}
+
+.subnavigation li:last-child a {
+    padding-left:0px;
+}
+
+.toggle-style .subnavigation li:last-child a {
+    padding-left:29px;
+}
+
+.subnavigation .filterline {
+    right: 1px;
+}
+
+.subnavigation li a .post-count {
+    right:-30px;
+
+}
+
+.subnavigation li a.active .post-count {
+    right:0;
+
+}
+
+.subnavigation.toggle-style.toggleClicked li a.active .post-count   {
+    right:-20px;
+    opacity: 0;
+    transition:right 400ms cubic-bezier(0.215, 0.61, 0.355, .9) 0s, opacity 400ms ease 0s;
+}
+
+.subnavigation.toggle-style.openToggle.toggleClicked li a.active .post-count   {
+    right:0;
+}
+
+
+.filterRightLine {
+    left:0;
+}
+
+.filterLeftLine {
+    right:0;
+}
+
+
+.filterToggle .toggleLineContainer .lineBarFirst {
+    right: 6px;
+}
+
+.filterToggle .toggleLineContainer .lineBarSecond {
+    right:15px;
+
+}
+
+#portfoliSingle .like a .count {
+
+    text-align: right;
+}
+
+#portfoliSingle .like .jm-post-like.icon-heart5:before {
+    padding-right: 1px;
+    text-align: left;
+} 
+
+#portfoliSingle .like .jm-post-like.liked.icon-heart5:before {
+    margin-left: 0px;
+}
+.portfolio_detail_full_width #PDetail .pDHeader-title {
+    margin-rightt: -15px;
+}
+
+.portfolio_detail_full_width .pDHeader-title .textBox {
+    padding: 27px 20px 27px 27px;
+}
+
+.portfolio_detail_full_width .pDHeader-title .titlebox-bg {
+    right:0;
+}
+
+.portfolio_detail_full_width .pDHeader-title .textBox .title {
+    float: right;
+}
+
+
+.portfolio_detail_full_width .pDHeader-title .textBox .subtitle {
+    margin-right: 3px;
+
+}
+
+.portfolio_detail_boxed #PDetail .pDHeader-title {
+    margin-right: -15px;
+}
+
+
+.portfolio_detail_boxed .pDHeader-title .titlebox-bg {
+    right:0;
+}
+
+.portfolio_detail_boxed .pDHeader-title .textBox .title {
+    padding: 13px 10px 0 30px;
+    text-align: left;
+    color:#000;
+    float: left;
+    margin-left: 25px;
+    border-left:1px solid #fff;
+}
+
+.portfolio_detail_boxed .pDHeader-title.active .textBox .title {
+    border-left:1px solid #000;
+}
+
+.portfolio_detail_boxed .pDHeader-title .textBox .subtitle {
+}
+
+.portfolio_detail_boxed .pDHeader-title.active .textBox .subtitle {
+}
+
+/* Portfolio deatil default*/
+.portfolio_detail_default .pDHeader-title {
+    margin-right: 35px;
+}
+
+.portfolio_detail_default .pDHeader-title .textBox {
+    padding: 27px 20px 27px 27px;
+}
+
+.portfolio_detail_default .pDHeader-title .titlebox-bg {
+    right:0;
+}
+
+.portfolio_detail_default .pDHeader-title .textBox .title {
+    float: right;
+}
+
+.portfolio_detail_default .pDHeader-title .textBox .subtitle {
+
+    margin-right: 3px;
+}
+
+.portfolio_detail_default .pDcontent > .span12 {
+    padding-left:30px;
+}
+
+.pDcontent .postMedia.span12 {
+    margin-right:15px;
+} 
+
+
+.portfolio_detail_creative .pd_creative_fixed_content {
+
+    margin:0 0 0 38px;
+    float:right;
+    padding-right:38px;
+}
+
+.portfolio_detail_creative .pd_creative_fixed_content .title_container {
+
+    text-align:left;
+}
+.portfolio_detail_creative .pd_creative_fixed_content .title_container .title {
+    padding-left: 23px;
+    margin-left: 85px;
+    border-right: 1px solid #171717;
+    border-left: none;
+	text-align: right;
+}
+
+.portfolio_detail_creative .pd_creative_fixed_content .desc {
+    margin-left:12px;
+    text-align: left;
+}
+
+.portfolio_detail_creative .pd_creative_fixed_content .desc .mCS_no_scrollbar_y {
+    padding-left:26px;
+}
+
+.portfolio_detail_creative .pd_creative_item {
+    float:left;
+}
+
+.portfolio_detail_creative .format-video .pd_creative_item {
+    margin-right: 375px;
+    right: 44px;
+    left: auto;
+}
+
+.portfolio_detail_creative #PDnavigation {
+    padding-left: 51px;
+    left: 0;
+}
+
+.portfolio_detail_creative .social_share_container {
+    margin-left: 40px;
+}
+
+#portfoliSingle.portfolio_detail_creative .like {
+    text-align: left;
+}
+
+#portfoliSingle.portfolio_detail_creative .home:not(.hide-home) + .like  {
+    margin-right: 30px;
+}
+
+#portfoliSingle.portfolio_detail_creative .like a {
+    margin-left: 34px;
+}
+
+.pDWrap .navWrap {
+    left:0;
+}
+
+.pDWrap .pDNavigation a{
+    float: left;
+}
+
+.pDWrap #PDclosePortfolio {
+    float:left;
+}
+
+.pDWrap #PDclosePortfolio:after {
+    right: 3px;
+}
+
+.pDWrap #PDclosePortfolio:before {
+    right: 4px;
+}
+
+/* portfolio filter */
+ul.portfolio-filter {
+    float: left;
+    left:30px;
+
+}
+
+
+ul.portfolio-filter li .icon {
+    float: left;
+    margin-left: 5px;;
+    left:2px;
+}
+
+ul.portfolio-filter li ul {
+    margin-right: -1px;
+}
+
+ul.portfolio-filter li ul li a {
+    padding: 6px 6px 0 0;
+}
+
+.project-detail li.project {
+    padding-left:5px;
+}
+
+.project-detail li.project .project-title {
+    float:right;
+    margin-left: 5px;
+}
+
+.project-detail li.project .project-subtitle {
+    float:right; 
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* 38. WP Classes
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  39. Search Page
+/*-----------------------------------------------------------------------------------*/
+
+.search-title {
+    padding: 30px 30px 20px 0;
+}
+
+.search-item{
+    padding:22px 30px 12px 22px;
+}
+
+.search-item .count {
+    float:right;
+    padding: 6px 0 5px 15px;
+}
+
+.search-item .content{
+    float:right;
+    padding-right: 15px;
+    border-left: 0;
+    border-right: 1px solid #c0c0c0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  40. Pagination
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  41. preloader
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* 42. Top button
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* 43. classic blog 
+/*-----------------------------------------------------------------------------------*/
+
+.cblog .post-meta {
+    margin-left: 3%;
+}
+
+.cblog .post-comments {
+    float: right;
+    margin-left: 5%;
+}
+ 
+.cblog .post-info {
+    float: right;
+    text-align:left;
+}
+
+.cblog .comments-link{
+    right:9px;
+}
+.widget.widget_woocommerce-dropdown-cart .header_cart {
+    top: 14px;
+}
+
+.cblog .post-content .moretag {
+    text-align: left;
+    padding-right:9px;
+    float:left;
+    left:0;
+}
+
+.cblog .redmore_button {
+    float:right;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  44. Notification
+/*-----------------------------------------------------------------------------------*/
+
+
+#notification .notificationMessage {
+    float:right;
+}
+
+.notificationText , .notificationTitle , .notificationIcon {
+    float:right;
+} 
+
+.notificationMessage .notificationIcon {
+    padding-right:2px;
+    padding-left:14px;
+}
+
+.notificationTitle {
+    padding-left:14px;
+}
+
+#notification .notificationBtns {
+    float:left;
+}
+
+#notification .closebtn {
+    float: left;
+    margin-left: 22px;
+}
+
+#notification .more-link-arrowbtn {
+    margin-right:9px;
+    float:right;
+    margin-left:10px;
+}
+
+/* Horizontal progress bar */
+
+
+.progress_bar  .progress_title {
+
+    right:0px;
+}
+.progress_percent_value {
+    right:15px;
+    text-align: left;
+}
+
+.progress_percent_value.complete {
+    right:0px;
+}
+
+.progress_bar .progressbar_percent {
+
+    right:0px;
+}
+
+.progress_bar .progressbar_percent:after {
+    right:100%;
+    margin-right: 3px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  45. Image carousel                                                                   */
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  46. Custom imagebox                                                                   */
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* 47. Showcase                                                                          */
+/*-----------------------------------------------------------------------------------*/
+
+.showcase {
+    direction: ltr;
+}
+.next-showcase {
+  float: right;
+  margin-left:15px;
+  margin-right:0px;
+}
+.showcase .item-content.text_bg {
+    text-align: right !important;
+}
+.next-showcase a.dJAX_internal {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-right: 0;
+    text-align: right;
+}
+
+.item-content:before {
+    display:none;
+}
+.item-content:after {
+   display:none;
+}
+#PDnavigation {
+    direction: ltr;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  50. Retina displays styles
+/*-----------------------------------------------------------------------------------*/
+
+
+.custom-iconbox:hover .hover-content {
+    text-align: right;
+}
+
+.custom-textbox .custom-textbox-bg {
+    right: 0;
+}
+
+.portfolio_text .portfolio_text_meta .like a {
+    text-align: center;
+}
+
+.custom-imageBox.Boxright .custom-textbox .textBox, .custom-imageBox.Boxright .custom-textbox.bg-animated .custom-textbox-bg {
+    right: 27px;
+}
+
+/*----------WordPress DashBoard-------------------------*/
+.ep-container.theme-settings {
+    direction: ltr;
+}
+div#mCSB_7 {
+    text-align: right;
+}
+
+/*--------------------Letter Spacing--------------------------------*/
+
+.next-showcase a, .portfolioSection .subtitle, .footer-bottom .copyright, .socialLinkShortcode.textstyle a span, .woocommerce .related h2, .woocommerce .upsells.products h2, .woocommerce-page .related h2, .woocommerce-page .upsells.products h2 , .woocommerce div.product .woocommerce-tabs .panel h2, .woocommerce #content div.product .woocommerce-tabs .panel h2, .woocommerce-page div.product .woocommerce-tabs .panel h2, .woocommerce-page #content div.product .woocommerce-tabs .panel h2,  .woocommerce #content div.product .woocommerce-tabs ul.tabs li a, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a, .woocommerce-page div.product .woocommerce-tabs ul.tabs li a, .woocommerce #content div.product .product_title, .woocommerce div.product .product_title, .woocommerce-page #content div.product .product_title, .woocommerce-page div.product .product_title, .postphoto .overlay .hover-subtitle , #search-form #search-caption, #search-form input[type="text"],  .footer-widgetized .widget-title, .progress_bar .progress_title, .progress_bar .progress_title, header .navigation > ul > li > a, header .navigation li li > a, .textBox .title, .swiper-slide .caption-subtitle, #fullScreenImage .caption-subtitle, .swiper-slide .caption-title, #fullScreenImage .caption-title, .letterspacing2, .iconbox .title, .subnavigation a, .pLoadMore .loadMore.loadmoreactive .load-more-text,.pLoadMore .loadMore.loadmoreactive .load-more-text, .counterBoxDetails, .button,.pLoadMore .loadMore, .letterspacing1, .readmore .loadMore,.widget-area .widget-title, .testimonials .quote .job, .project-detail li:last-child .project-subtitle a, .portfolio_detail_full_width #PDnavigation .arrows-button-prev .text, .portfolio_detail_full_width #PDnavigation .arrows-button-next .text, .portfolio_detail_boxed #PDnavigation .arrows-button-prev .text, .portfolio_detail_boxed #PDnavigation .arrows-button-next .text{
+    letter-spacing: 0px !important;
+}
+
+.cblog .comments-link{ 
+    top:-30px;
+}
+/*------------------------------WooCommerce----------------------*/
+.widget.widget_woocommerce-dropdown-cart {
+    margin-top: -14px;
+    margin-left: -10px;
+}
+.widget.widget_woocommerce-wishlist a span.wishlist_items_number {
+    left: -10px;
+}
+a.next.page-numbers.no_djax {
+    direction: ltr;
+}
+a.prev.page-numbers.no_djax {
+    direction: ltr;
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus:before, .woocommerce nav.woocommerce-pagination ul li a:hover:before, .woocommerce nav.woocommerce-pagination ul li span.current:before {
+    right: 20%;
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus:before, .woocommerce nav.woocommerce-pagination ul li a:hover:before, .woocommerce nav.woocommerce-pagination ul li span.current:before {
+    right: 20%;
+}
+.add_to_cart_btn_wrap .shop_wishlist_button:before {
+    margin-right: 7px;
+}
+.woocommerce ul.products li.product h3 {
+    text-align: right;
+}
+.woocommerce ul.products li.product a.product_type_simple, .woocommerce-page ul.products li.product a.product_type_simple {   
+     right: 245px;
+}
+.woocommerce ul.products li.product a, .woocommerce-page ul.products li.product a {
+    right: 215px;
+}
+.woocommerce div.product .product_title:before, .woocommerce-page div.product .product_title:before {
+    right: -5px;
+}
+.woocommerce div.product form.cart div.quantity {
+    direction: ltr;
+}
+.widget.widget_woocommerce-dropdown-cart .product_list_widget {
+    left: 0 !important;
+    right:auto;
+}
+.woocommerce #content .quantity, .woocommerce .quantity, .woocommerce-page #content .quantity, .woocommerce-page .quantity {
+    direction: ltr;
+}
+header.fillhover .navigation > ul > li:hover .spanHover  ,
+header.fillhover .navigation li.active .spanHover  ,
+header.fillhover .navigation > ul > li.current_page_item .spanHover,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children:hover{
+   height:52px;
+
+   -moz-transition:height 200ms ease-in-out;
+	-o-transition:height 200ms ease-in-out;
+	-webkit-transition:height 200ms ease-in-out;
+	transition:height 200ms ease-in-out;
+}
