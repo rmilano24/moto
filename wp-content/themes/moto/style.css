@@ -19,3 +19,15 @@
 @import url(assets/css/icomoon.css);
 @import url(assets/css/theme-styles.css);
 @import url(assets/css/woocommerce.css);
+
+/*-----------------------------------------------------------------------------------*/
+/* M0TO
+/*-----------------------------------------------------------------------------------*/
+
+#blog {
+	background-image: url(http://localhost:8888/moto/wordpress/wp-content/uploads/2015/07/bg_texture-1.jpg);
+	    padding-top: 160px;
+	    padding-bottom: 170px;
+	    background-size: cover;
+			background-position: center;
+}
