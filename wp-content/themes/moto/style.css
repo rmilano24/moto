@@ -1,15 +1,14 @@
 /*-----------------------------------------------------------------------------------
 
 	Theme Name: M0T0
-	Theme URI: http://themeforest.net/user/Epicomedia
-	Description: <strong>Creative One Page Multi-Purpose Theme </strong>
-	Author: EpicoMedia
-	Author URI: http://www.Epicomedia.net
+	Theme URI: http://www.conveyedconcepts.com
+	Description: Custom Theme based of of Vertes
+	Author: Ryan Milano
+	Author URI: http://www.conveyedconcepts.com
 	License: GNU General Public License version 3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 	Version: 1.3.5
-	Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, sticky-post, theme-options, translation-ready, accessibility-ready
-	Designed & Handcrafted by EpicoMedia
+	Tags: black,
 	All files, unless otherwise stated, are released under the GNU General Public License
 	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
 
@@ -23,6 +22,26 @@
 /*-----------------------------------------------------------------------------------*/
 /* M0TO
 /*-----------------------------------------------------------------------------------*/
+
+header .logo img {
+	max-height: 62px;
+}
+
+.menu-list a span {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: lighter;
+}
+
+.menu-list a span::after {
+	content: "//";
+	position: relative;
+	left: 24px;
+}
+
+.menu-list li:last-child a span::after {
+		content: none;
+}
 
 #blog {
 	background-image: url(http://localhost:8888/moto/wordpress/wp-content/uploads/2015/07/bg_texture-1.jpg);
